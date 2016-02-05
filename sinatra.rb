@@ -1,10 +1,22 @@
 require 'sinatra'
 
-get '/' do
-  File.read('index.html')
-end
 
-post '/another' do
-  puts "Hello, world!"
-  File.read('another.html')
+class SinatraApp < Sinatra::Base
+	configure do	  
+	  enable :static
+	end
+
+	get '/' do
+	  send_file 'index.html'
+	end
+
+	get '/gallery' do
+		send_file 'gallery.html'
+	end
+
+	get '/another' do
+	  puts "Hello, world!"
+	  File.read('another.html')
+	end
+
 end

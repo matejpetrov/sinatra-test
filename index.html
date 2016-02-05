@@ -1,7 +1,712 @@
-<div>
-	<p>This is the index.html page of this Sinatra project</p>	
-	
-	<form method="post" action="/another">
-		<button name="submit">Submit</button>
-	</form>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Creative - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <link rel="stylesheet" href="css/modals.css" type="text/css">
+    <link rel="stylesheet" href="css/email_form.css" type="text/css">
+
+    <!-- Blueimp Gallery -->
+    <link rel="stylesheet" href="css/blueimp-gallery.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-index">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">RDG Motors</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                    <li>
+                        <a class="page-scroll" href="#about">За нас</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Услуги</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Портфолио</a>
+                    </li>                   
+                    <li>
+                        <a class="page-scroll" href="#contact">Контакт</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <!-- <h1>Your Favorite Source of Free Bootstrap Themes</h1> -->
+                <!-- <hr> -->
+                <!-- <p>Најубавите ретро мотори</p> -->
+                <h2>Најубавите ретро мотори</h2>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Дознај повеќе</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">We've got what you need!</h2>
+                    <hr class="light">
+                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
+                    <a href="#services" class="btn btn-default btn-xl page-scroll">Get Started!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Нудиме</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <!-- <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>-->
+                        <img src="images/icons/renting.png" class="img-responsive service-image" alt="">
+                        <h3>Изнајмување</h3>
+                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <!-- <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i> -->
+                        <img src="images/icons/buying.png" class="img-responsive service-image" alt="">
+                        <h3>Купување</h3>
+                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <!-- <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i> -->
+                        <img src="images/icons/restaurating.png" class="img-responsive service-image" alt="">
+                        <h3>Реставрирање</h3>
+                        <p class="text-muted">We update dependencies to keep things fresh.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <!-- <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i> -->
+                        <img src="images/icons/selling.png" class="img-responsive service-image" alt="">
+                        <h3>Продавање</h3>
+                        <p class="text-muted">You have to make your websites with love these days!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#modalMotor1" class="portfolio-box" data-toggle="modal">
+                        <img src="images/motors/motor1/motor-1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Модел
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#modalMotor2" class="portfolio-box" data-toggle="modal">
+                        <img src="images/motors/motor2/motor-2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Модел
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#modalMotor3" class="portfolio-box" data-toggle="modal">
+                        <img src="images/motors/motor3/motor-3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Модел
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#modalMotor4" class="portfolio-box" data-toggle="modal">
+                        <img src="images/motors/motor4/motor-4.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Модел
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#modalMotor5" class="portfolio-box" data-toggle="modal">
+                        <img src="images/motors/motor5/motor-5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Модел
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#modalMotor6" class="portfolio-box" data-toggle="modal">
+                        <img src="images/motors/motor6/motor-6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Модел
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Погледнете ги сите модели!</h2>
+                <a href="/gallery" class="btn btn-default btn-xl wow tada">Галерија</a>
+            </div>
+        </div>
+    </aside>
+
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Контактирајте не!</h2>
+                    <hr class="primary">
+                    <p>Подготвени сте за соработка? Одлично! Јавете се на нашиот број...</p>
+                </div>
+            </div>
+            <div class="row">
+            	<div class="col-lg-8 col-lg-offset-2 text-center">
+          	    <i class="fa fa-phone fa-3x wow bounceIn"></i>
+          	    <p class="phone-number">123-456-6789</p>
+            	</div>            	
+            </div>
+            <div class="row">
+            	<div class="col-lg-8 col-lg-offset-2 text-center">
+            		<p>Или испратете ни мејл</p>          	    
+            	</div>
+            </div>
+            <div class="row">
+            	<div class="col-lg-12">
+            	    <form name="sentMessage" id="contactForm" novalidate>
+            	        <div class="row">
+            	            <div class="col-md-6">
+            	                <div class="form-group">
+            	                    <input type="text" class="form-control" placeholder="Име и презиме *" id="name" required data-validation-required-message="Внесете го вашето име.">
+            	                    <p class="help-block text-danger"></p>
+            	                </div>
+            	                <div class="form-group">
+            	                    <input type="email" class="form-control" placeholder="E-mail адреса *" id="email" required data-validation-required-message="Внесете ја вашата email адреса.">
+            	                    <p class="help-block text-danger"></p>
+            	                </div>            	                
+            	            </div>
+            	            <div class="col-md-6">
+            	                <div class="form-group">
+            	                    <textarea class="form-control" placeholder="Вашата порака *" id="message" required data-validation-required-message="Внесете ја вашата порака."></textarea>
+            	                    <p class="help-block text-danger"></p>
+            	                </div>
+            	            </div>
+            	            <div class="clearfix"></div>
+            	            <div class="col-lg-12 text-center">
+            	                <div id="success"></div>
+            	                <button type="submit" class="btn btn-xl btn-send">Испрати</button>
+            	            </div>
+            	        </div>
+            	    </form>
+            	</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blueimp gallery Start -->
+    <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+        <div class="slides"></div>
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+    </div>    
+    <!-- Blueimp gallery End -->    
+
+    <!-- Modals Section Start -->
+    <div class="portfolio-modal modal fade" id="modalMotor1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl">
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Model Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-responsive img-centered" src="images/motors/motor1/motor-1.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  
+                  <ul class="list-inline">
+                    <li>Date: July 2014</li>
+                    <li>Client: Round Icons</li>
+                    <li>Category: Graphic Design</li>
+                  </ul>
+
+                  <div id="links1">
+                    <a href="images/motors/motor1/motor-1.jpg" title="Motor1">
+                      <img src="images/motors/motor1/thumbnails/thumb-motor-1.jpg" alt="Motor1">
+                    </a>
+                    <a href="images/motors/motor1/motor-11.jpg" title="Motor11">
+                      <img src="images/motors/motor1/thumbnails/thumb-motor11.jpg" alt="Motor11 thumb">
+                    </a>
+                    <a href="images/motors/motor1/motor-12.jpg" title="Motor12">
+                      <img src="images/motors/motor1/thumbnails/thumb-motor12.jpg" alt="Motor12 thumb">
+                    </a>
+                    <a href="images/motors/motor1/motor-13.jpg" title="Motor13">
+                      <img src="images/motors/motor1/thumbnails/thumb-motor13.jpg" alt="Motor13 thumb">
+                    </a>
+                  </div>
+
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Model</button>
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="modalMotor2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl">
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Model Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-responsive img-centered" src="images/motors/motor2/motor-2.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  
+                  <ul class="list-inline">
+                    <li>Date: July 2014</li>
+                    <li>Client: Round Icons</li>
+                    <li>Category: Graphic Design</li>
+                  </ul>
+
+                  <div id="links2">                    
+                    <a href="images/motors/motor2/motor-21.jpg" title="motor21">
+                      <img src="images/motors/motor2/thumbnails/thumb-motor21.jpg" alt="motor21 thumb">
+                    </a>
+                    <a href="images/motors/motor2/motor-22.jpg" title="motor22">
+                      <img src="images/motors/motor2/thumbnails/thumb-motor22.jpg" alt="motor22 thumb">
+                    </a>
+                    <a href="images/motors/motor2/motor-23.jpg" title="motor23">
+                      <img src="images/motors/motor2/thumbnails/thumb-motor23.jpg" alt="motor23 thumb">
+                    </a>
+                    <a href="images/motors/motor2/motor-24.jpg" title="motor24">
+                      <img src="images/motors/motor2/thumbnails/thumb-motor24.jpg" alt="motor24 thumb">
+                    </a>
+                    <a href="images/motors/motor2/motor-25.jpg" title="motor25">
+                      <img src="images/motors/motor2/thumbnails/thumb-motor25.jpg" alt="motor25 thumb">
+                    </a>
+                    <a href="images/motors/motor2/motor-26.jpg" title="motor26">
+                      <img src="images/motors/motor2/thumbnails/thumb-motor26.jpg" alt="motor26 thumb">
+                    </a>
+                    <a href="images/motors/motor2/motor-27.jpg" title="motor27">
+                      <img src="images/motors/motor2/thumbnails/thumb-motor27.jpg" alt="motor27 thumb">
+                    </a>
+                  </div>
+
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Model</button>
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="modalMotor3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl">
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Model Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-responsive img-centered" src="images/motors/motor3/motor-3.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  
+                  <ul class="list-inline">
+                    <li>Date: July 2014</li>
+                    <li>Client: Round Icons</li>
+                    <li>Category: Graphic Design</li>
+                  </ul>
+
+                  <div id="links3">                    
+                    <a href="images/motors/motor3/motor-31.jpg" title="motor31">
+                      <img src="images/motors/motor3/thumbnails/thumb-motor31.jpg" alt="motor31 thumb">
+                    </a>
+                    <a href="images/motors/motor3/motor-32.jpg" title="motor32">
+                      <img src="images/motors/motor3/thumbnails/thumb-motor32.jpg" alt="motor32 thumb">
+                    </a>
+                    <a href="images/motors/motor3/motor-33.jpg" title="motor33">
+                      <img src="images/motors/motor3/thumbnails/thumb-motor33.jpg" alt="motor33 thumb">
+                    </a>
+                    <a href="images/motors/motor3/motor-34.jpg" title="motor34">
+                      <img src="images/motors/motor3/thumbnails/thumb-motor34.jpg" alt="motor34 thumb">
+                    </a>
+                    <a href="images/motors/motor3/motor-35.jpg" title="motor35">
+                      <img src="images/motors/motor3/thumbnails/thumb-motor35.jpg" alt="motor35 thumb">
+                    </a>
+                    <a href="images/motors/motor3/motor-36.jpg" title="motor36">
+                      <img src="images/motors/motor3/thumbnails/thumb-motor36.jpg" alt="motor36 thumb">
+                    </a>                    
+                  </div>
+
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Model</button>
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="modalMotor4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl">
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Model Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-responsive img-centered" src="images/motors/motor4/motor-4.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  
+                  <ul class="list-inline">
+                    <li>Date: July 2014</li>
+                    <li>Client: Round Icons</li>
+                    <li>Category: Graphic Design</li>
+                  </ul>
+
+                  <div id="links4">                    
+                    <a href="images/motors/motor4/motor-41.jpg" title="motor41">
+                      <img src="images/motors/motor4/thumbnails/thumb-motor41.jpg" alt="motor41 thumb">
+                    </a>
+                    <a href="images/motors/motor4/motor-42.jpg" title="motor42">
+                      <img src="images/motors/motor4/thumbnails/thumb-motor42.jpg" alt="motor42 thumb">
+                    </a>                            
+                  </div>                  
+
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Model</button>
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="modalMotor5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl">
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Model Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-responsive img-centered" src="images/motors/motor5/motor-5.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  
+                  <ul class="list-inline">
+                    <li>Date: July 2014</li>
+                    <li>Client: Round Icons</li>
+                    <li>Category: Graphic Design</li>
+                  </ul>
+
+                  <div id="links5">                    
+                    <a href="images/motors/motor5/motor-51.jpg" title="motor51">
+                      <img src="images/motors/motor5/thumbnails/thumb-motor51.jpg" alt="motor51 thumb">
+                    </a>
+                    <a href="images/motors/motor5/motor-52.jpg" title="motor52">
+                      <img src="images/motors/motor5/thumbnails/thumb-motor52.jpg" alt="motor52 thumb">
+                    </a>
+                    <a href="images/motors/motor5/motor-53.jpg" title="motor53">
+                      <img src="images/motors/motor5/thumbnails/thumb-motor53.jpg" alt="motor53 thumb">
+                    </a>
+                    <a href="images/motors/motor5/motor-54.jpg" title="motor54">
+                      <img src="images/motors/motor5/thumbnails/thumb-motor54.jpg" alt="motor54 thumb">
+                    </a>
+                    <a href="images/motors/motor5/motor-55.jpg" title="motor55">
+                      <img src="images/motors/motor5/thumbnails/thumb-motor55.jpg" alt="motor55 thumb">
+                    </a>
+                    <a href="images/motors/motor5/motor-56.jpg" title="motor56">
+                      <img src="images/motors/motor5/thumbnails/thumb-motor56.jpg" alt="motor56 thumb">
+                    </a>
+                    <a href="images/motors/motor5/motor-57.jpg" title="motor57">
+                      <img src="images/motors/motor5/thumbnails/thumb-motor57.jpg" alt="motor57 thumb">
+                    </a>
+                    <a href="images/motors/motor5/motor-58.jpg" title="motor58">
+                      <img src="images/motors/motor5/thumbnails/thumb-motor58.jpg" alt="motor58 thumb">
+                    </a>
+                    <a href="images/motors/motor5/motor-59.jpg" title="motor59">
+                      <img src="images/motors/motor5/thumbnails/thumb-motor59.jpg" alt="motor59 thumb">
+                    </a>                    
+                  </div>
+
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Model</button>
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="modalMotor6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl">
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Model Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-responsive img-centered" src="images/motors/motor6/motor-6.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  
+                  <ul class="list-inline">
+                    <li>Date: July 2014</li>
+                    <li>Client: Round Icons</li>
+                    <li>Category: Graphic Design</li>
+                  </ul>
+
+                  <div id="links6">                    
+                    <a href="images/motors/motor6/motor-61.jpg" title="motor61">
+                      <img src="images/motors/motor6/thumbnails/thumb-motor61.jpg" alt="motor61 thumb">
+                    </a>
+                    <a href="images/motors/motor6/motor-62.jpg" title="motor62">
+                      <img src="images/motors/motor6/thumbnails/thumb-motor62.jpg" alt="motor62 thumb">
+                    </a>
+                    <a href="images/motors/motor6/motor-63.jpg" title="motor63">
+                      <img src="images/motors/motor6/thumbnails/thumb-motor63.jpg" alt="motor63 thumb">
+                    </a>
+                    <a href="images/motors/motor6/motor-64.jpg" title="motor64">
+                      <img src="images/motors/motor6/thumbnails/thumb-motor64.jpg" alt="motor64 thumb">
+                    </a>
+                    <a href="images/motors/motor6/motor-65.jpg" title="motor65">
+                      <img src="images/motors/motor6/thumbnails/thumb-motor65.jpg" alt="motor65 thumb">
+                    </a>                                     
+                  </div>
+
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Model</button>
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Modals Section End -->
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
+    <!-- Bootstrap Gallery -->
+    <script src="js/blueimp-gallery.min.js"></script>
+    <!-- <script src="js/jquery.blueimp-gallery.min.js"></script> -->
+
+
+    <script>
+        document.getElementById('links1').onclick = function (event) {
+          event = event || window.event;
+          var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event},
+            links = this.getElementsByTagName('a');
+          blueimp.Gallery(links, options);
+        };
+
+        document.getElementById('links2').onclick = function (event) {
+          event = event || window.event;
+          var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event},
+            links = this.getElementsByTagName('a');
+          blueimp.Gallery(links, options);
+        };
+
+        document.getElementById('links3').onclick = function (event) {
+          event = event || window.event;
+          var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event},
+            links = this.getElementsByTagName('a');
+          blueimp.Gallery(links, options);
+        };
+
+        document.getElementById('links4').onclick = function (event) {
+          event = event || window.event;
+          var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event},
+            links = this.getElementsByTagName('a');
+          blueimp.Gallery(links, options);
+        };
+
+        document.getElementById('links5').onclick = function (event) {
+          event = event || window.event;
+          var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event},
+            links = this.getElementsByTagName('a');
+          blueimp.Gallery(links, options);
+        };
+
+        document.getElementById('links6').onclick = function (event) {
+          event = event || window.event;
+          var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event},
+            links = this.getElementsByTagName('a');
+          blueimp.Gallery(links, options);
+        };
+    </script>
+
+</body>
+
+</html>
