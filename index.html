@@ -152,7 +152,7 @@
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#modalMotor1" class="portfolio-box" data-toggle="modal">
+                    <a href="#modalMotor1" class="portfolio-box" data-toggle="modal" data-keyboard="false">
                         <img src="images/motors/motor1/motor-1.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -167,7 +167,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#modalMotor2" class="portfolio-box" data-toggle="modal">
+                    <a href="#modalMotor2" class="portfolio-box" data-toggle="modal" data-keyboard="false">
                         <img src="images/motors/motor2/motor-2.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -182,7 +182,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#modalMotor3" class="portfolio-box" data-toggle="modal">
+                    <a href="#modalMotor3" class="portfolio-box" data-toggle="modal" data-keyboard="false">
                         <img src="images/motors/motor3/motor-3.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -197,7 +197,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#modalMotor4" class="portfolio-box" data-toggle="modal">
+                    <a href="#modalMotor4" class="portfolio-box" data-toggle="modal" data-keyboard="false">
                         <img src="images/motors/motor4/motor-4.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -212,7 +212,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#modalMotor5" class="portfolio-box" data-toggle="modal">
+                    <a href="#modalMotor5" class="portfolio-box" data-toggle="modal" data-keyboard="false">
                         <img src="images/motors/motor5/motor-5.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -227,7 +227,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#modalMotor6" class="portfolio-box" data-toggle="modal">
+                    <a href="#modalMotor6" class="portfolio-box" data-toggle="modal" data-keyboard="false">
                         <img src="images/motors/motor6/motor-6.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -656,7 +656,7 @@
           event = event || window.event;
           var target = event.target || event.srcElement,
             link = target.src ? target.parentNode : target,
-            options = {index: link, event: event},
+            options = {index: link, event: event, closeOnEscape: false},
             links = this.getElementsByTagName('a');
           blueimp.Gallery(links, options);
         };
@@ -665,7 +665,7 @@
           event = event || window.event;
           var target = event.target || event.srcElement,
             link = target.src ? target.parentNode : target,
-            options = {index: link, event: event},
+            options = {index: link, event: event, closeOnEscape: false},
             links = this.getElementsByTagName('a');
           blueimp.Gallery(links, options);
         };
@@ -674,7 +674,7 @@
           event = event || window.event;
           var target = event.target || event.srcElement,
             link = target.src ? target.parentNode : target,
-            options = {index: link, event: event},
+            options = {index: link, event: event, closeOnEscape: false},
             links = this.getElementsByTagName('a');
           blueimp.Gallery(links, options);
         };
@@ -683,7 +683,7 @@
           event = event || window.event;
           var target = event.target || event.srcElement,
             link = target.src ? target.parentNode : target,
-            options = {index: link, event: event},
+            options = {index: link, event: event, closeOnEscape: false},
             links = this.getElementsByTagName('a');
           blueimp.Gallery(links, options);
         };
@@ -692,7 +692,7 @@
           event = event || window.event;
           var target = event.target || event.srcElement,
             link = target.src ? target.parentNode : target,
-            options = {index: link, event: event},
+            options = {index: link, event: event, closeOnEscape: false},
             links = this.getElementsByTagName('a');
           blueimp.Gallery(links, options);
         };
@@ -701,7 +701,7 @@
           event = event || window.event;
           var target = event.target || event.srcElement,
             link = target.src ? target.parentNode : target,
-            options = {index: link, event: event},
+            options = {index: link, event: event, closeOnEscape: false},
             links = this.getElementsByTagName('a');
           blueimp.Gallery(links, options);
         };

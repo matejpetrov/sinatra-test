@@ -14,9 +14,4 @@ class SinatraApp < Sinatra::Base
 		send_file 'gallery.html'
 	end
 
-	get '/another' do
-	  puts "Hello, world!"
-	  File.read('another.html')
-	end
-
 end
