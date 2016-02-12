@@ -60,3 +60,18 @@ section#contact .text-danger{
 .btn-send:hover, .btn-send:focus{
 	color: #e74c3c;
 }
+
+
+/* success section */
+
+.success{
+  display: none;
+  min-height: 40px;
+  background-color: #2ECC71;
+  width: 100%;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 18px;
+}
