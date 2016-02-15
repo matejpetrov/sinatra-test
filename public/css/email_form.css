@@ -19,14 +19,14 @@ section#contact .form-group textarea.form-control{
 	height:236px
 }
 section#contact .form-control:focus{
-	border-color: #f05f40;
+	border-color: #e74c3c;
 	box-shadow: none
 }
 section#contact ::-webkit-input-placeholder{
 	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-transform:uppercase;
 	font-weight:700;
-	color:#bbb
+	color:#bbb;
 }
 section#contact :-moz-placeholder{
 	font-family:Montserrat,"Helvetica Neue",
@@ -47,9 +47,6 @@ section#contact :-ms-input-placeholder{
 	font-weight:700;
 	color:#bbb
 }
-section#contact .text-danger{
-	color: #e74c3c;
-}
 
 .btn-send{
 	color: black;
@@ -62,7 +59,7 @@ section#contact .text-danger{
 }
 
 
-/* success section */
+/* success section START */
 
 .success{
   display: none;
@@ -75,3 +72,18 @@ section#contact .text-danger{
   margin-top: 20px;
   border-radius: 18px;
 }
+
+/* success section END */
+
+
+/* validation section START */
+
+.validation-message{
+	color: #e74c3c;
+}
+
+.has-error .form-control{
+	border-color: #e74c3c;
+}
+
+/* validation section END */

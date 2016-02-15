@@ -277,28 +277,25 @@
             </div>
             <div class="row">
             	<div class="col-lg-12">
-            	    <form name="sentMessage" id="contactForm" method="post" action="/sendmail" novalidate>
+            	    <form name="sentMessage" id="contactForm" method="post" action="/sendmail">
             	        <div class="row">
             	            <div class="col-md-6">
             	                <div class="form-group">
-            	                    <input type="text" class="form-control" placeholder="Име и презиме *" id="name" name="name" required data-validation-required-message="Внесете го вашето име.">
-            	                    <p class="help-block text-danger"></p>
+            	                    <input type="text" class="form-control" placeholder="Име и презиме *" id="name" name="name">            	                    
             	                </div>
             	                <div class="form-group">
-            	                    <input type="email" class="form-control" placeholder="E-mail адреса *" id="email" name="email" required data-validation-required-message="Внесете ја вашата email адреса.">
-            	                    <p class="help-block text-danger"></p>
-            	                </div>            	                
+            	                    <input type="email" class="form-control" placeholder="E-mail адреса *" id="email" name="email">            	                    
+            	                </div>
             	            </div>
             	            <div class="col-md-6">
             	                <div class="form-group">
-            	                    <textarea class="form-control" placeholder="Вашата порака *" id="message" name="message" required data-validation-required-message="Внесете ја вашата порака."></textarea>
-            	                    <p class="help-block text-danger"></p>
+            	                    <textarea class="form-control" placeholder="Вашата порака *" id="message" name="message"></textarea>
             	                </div>
             	            </div>
             	            <div class="clearfix"></div>
             	            <div class="col-lg-12 text-center">            	                
             	                <button type="submit" class="btn btn-xl btn-send">Испрати</button>
-                                <div id='success'class="text-center col-xs-12 success">
+                                <div id='success' class="text-center col-xs-12 success">
                                   Вашата порака беше успешно испратена. Ви благодариме.
                                 </div>
             	            </div>
@@ -636,6 +633,7 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script src="js/jquery.validate.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
@@ -648,6 +646,7 @@
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
     <script src="js/custom.js"></script>
+    <script src="js/validation.js"></script>
 
     <!-- Bootstrap Gallery -->
     <script src="js/blueimp-gallery.min.js"></script>

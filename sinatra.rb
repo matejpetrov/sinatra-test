@@ -19,9 +19,9 @@ class SinatraApp < Sinatra::Base
 		Net::SMTP.enable_tls(OpenSSL::SSL::VERIFY_NONE)
 		name = params["name"]
 		email_from = params["email"]
-		text = params["message"]
+		message = params["message"]
 
-		message = "D-Custom visitor #{name}, with #{email_from} as email address, sends this message \n\n #{text}"
+		full_message = "D-Custom visitor #{name}, with #{email_from} as email address, sends this message \n\n #{message}"
 
 		username, password = email_credentials
 		redirect_url_value = redirect_url
@@ -31,7 +31,7 @@ Subject: D Custom Test Message
 Date: #{Time.now.rfc2822}
 From: #{email_from}
 
-#{message}
+#{full_message}
 END_OF_MESSAGE
 
 		to = "petrov_matej@yahoo.com"
